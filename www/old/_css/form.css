@@ -1,0 +1,75 @@
+label {
+  float: left;
+  //width: 10%;
+  width: 15em;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+input,
+textarea,
+select {
+  padding: 1px;
+  font: 400 1em verdana, sans-serif;
+  border: 1px solid #CCC;
+}
+
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover,
+select:focus,
+select:hover {
+  color: #000;
+  background: #E7F1F3;
+  border: 1px solid #888;
+}
+
+input.noBorder,
+input:focus.noBorder,
+input:hover.noBorder {
+  padding: 0;
+  border: 0;
+}
+
+input.button {
+  padding: 2px 5px;
+
+  font: 400 0.9em verdana, serif;
+  cursor: pointer;
+
+  color: #fff;
+  background: #FC3307;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FF7800 #691300 #691300 #FF7800;
+}
+
+input.radio {
+  background: none;
+  border: 0px;
+}
+
+.width5 {
+  width: 5em;
+}
+
+.width25 {
+  width: 24%;
+}
+
+.width50 {
+  width: 48%;
+}
+
+.width73 {
+  width: 73%;
+}
+
+.width75 {
+  width: 75%;
+}
+
+.width100 {
+  width: 100%;
+}

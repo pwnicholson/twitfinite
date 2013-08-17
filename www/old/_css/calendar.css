@@ -1,0 +1,36 @@
+.calendar_container {
+	width: 140px;
+	border: 1px solid #000;
+}
+
+.calendar_month {
+	text-align: center;
+	font-weight: bold;
+}
+
+.calendar_week {
+	
+}
+
+.calendar_day, .calendar_dow, .calendar_day_empty {
+	text-align: center;
+	width: 20px;
+}
+
+.calendar_dow {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	font-weight: bold;
+}
+
+.calendar_day:hover {
+	background-color: #ccf;
+}
+
+.calendar_nav {
+	text-align: center;
+}
+
+.calendar_nav:hover {
+	font-weight: bold;
+}

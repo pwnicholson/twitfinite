@@ -1,0 +1,168 @@
+*	{
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 12px;
+}
+
+.clear {
+	clear: both;
+}
+
+.nav_divs {
+	margin-left: 5px;
+}
+
+.err {
+	color: #a00;
+	font-weight: bold;
+}
+
+.msg {
+	color: #00a;
+	font-weight: bold;
+}
+
+sup {
+	font-weight: none;
+	font-size: 8;
+}
+
+.fakelink {
+	cursor: hand;
+	cursor: pointer;
+	display: inline;
+}
+
+.i {
+	font-style: italic;
+}
+
+.b {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+html, html body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #ddd;
+	margin-bottom: 1px;
+}
+
+#content {
+	min-height: 100%;
+	width: 950px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	border-bottom: 1px solid #000;
+}
+
+#header {
+	background: url(/images/logo_beta.png) no-repeat center center;
+	background-color: #def; margin: 0px;
+	height: 197px;
+	width: 950px;
+	border-bottom: 1px solid #000;
+	text-align: right;
+}
+
+#header span {
+	padding-right: 5px;
+	padding-top: 5px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+#footer {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 1em;
+}
+
+#nav {
+	background-color: #fff;
+	padding: 10px;
+}
+
+#bd {
+	margin-top: 5px;
+}
+
+#userguide ol li {
+	padding-bottom: 5px;
+}
+
+#userguide ul{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.title {
+	font-size: 20px;
+	weight: bold;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.screenshot {
+	margin: 0px auto 10px;
+	display: block;
+	text-align: center;
+	border: 0px;
+}
+
+label {
+	font-weight: normal;
+}
+
+h2,h3 {
+	font-weight: bold;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 3px;
+	margin-right: 10px;
+}
+
+h2 {
+	font-size: 14px;
+}
+
+h2 .note {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+.def {
+	margin-bottom: 10px;
+}
+
+.container {
+	margin-bottom: 10px;
+	padding-right: 5px;
+}
+
+.twitter_ts {
+	color:#999999;
+	display:block;
+	font-family:georgia;
+	font-size:0.8em;
+	font-style:italic;
+}
